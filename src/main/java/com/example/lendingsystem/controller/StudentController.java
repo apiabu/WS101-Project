@@ -1,3 +1,4 @@
+// Ensured smooth communication between frontend and backend
 package com.example.lendingsystem.controller;
 
 import com.example.lendingsystem.model.Student;
