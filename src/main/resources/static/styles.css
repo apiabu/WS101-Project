@@ -23,7 +23,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
+/* Ensured consistent color scheme and interface formatting */
 .topbar h2 {
     color: #2c3e50;
 }
