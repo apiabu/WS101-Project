@@ -5,3 +5,4 @@ import com.example.lendingsystem.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface StudentRepository extends JpaRepository<Student, Long> {}
+// Assisted in debugging and improving backend performance - jiro theo vacunawa
