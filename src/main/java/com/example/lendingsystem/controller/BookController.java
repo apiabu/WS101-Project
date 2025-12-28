@@ -1,4 +1,4 @@
-// Implemented Model classes for Students, Books, Users, and Borrowing
+// Implemented Model classes for Students, Books, Users, and Borrowing - ralph mabini
 package com.example.lendingsystem.controller;
 
 import com.example.lendingsystem.model.Book;
