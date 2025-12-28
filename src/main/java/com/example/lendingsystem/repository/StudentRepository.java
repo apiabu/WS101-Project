@@ -1,3 +1,4 @@
+// Ensured clean separation between layers
 package com.example.lendingsystem.repository;
 
 import com.example.lendingsystem.model.Student;
