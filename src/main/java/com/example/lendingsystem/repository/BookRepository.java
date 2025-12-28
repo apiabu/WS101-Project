@@ -1,3 +1,4 @@
+// Developed Repository interfaces for database operations - jiro theo vacunawa
 package com.example.lendingsystem.repository;
 
 import com.example.lendingsystem.model.Book;
