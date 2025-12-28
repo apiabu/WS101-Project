@@ -1,4 +1,5 @@
 // Created REST Controllers for backend API endpoints - ralph mabini
+// Handled request routing and API responses
 package com.example.lendingsystem.controller;
 
 import com.example.lendingsystem.model.Borrow;
