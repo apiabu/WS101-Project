@@ -7,3 +7,4 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     User findByUsername(String username);
 }
+//Managed database queries and data processing - jiro theo vacunawa
