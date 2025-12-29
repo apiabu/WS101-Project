@@ -1,48 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Student List</title>
-    <link rel="stylesheet" href="/css/students.css">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/dashboard.css">
 </head>
 
 <body>
 
 <div class="dash-wrapper">
 
-    <!-- HEADER -->
     <div class="dash-header">
         <div class="brand-badge">LENDING SYSTEM</div>
-        <div class="gear">⚙</div>
     </div>
 
-    <!-- CONTENT -->
-    <h2 style="margin-bottom:20px;">Student List</h2>
+    <h2>Lending System Dashboard</h2>
 
-    <div class="menu-box" style="flex-direction:column; gap:0;">
-        <table style="width:100%; border-collapse:collapse;">
-            <thead>
-            <tr style="border-bottom:1px solid rgba(255,255,255,.2);">
-                <th align="left" style="padding:12px;">ID</th>
-                <th align="left" style="padding:12px;">Name</th>
-                <th align="left" style="padding:12px;">Student ID</th>
-                <th align="left" style="padding:12px;">Course / Year</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td style="padding:12px;">1</td>
-                <td style="padding:12px;">Alpio Abuyog</td>
-                <td style="padding:12px;">234311</td>
-                <td style="padding:12px;">BSIT 3rd Year</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <!-- FOOTER BUTTON -->
-    <div style="text-align:center; margin-top:25px;">
-        <a href="/dashboard.html" class="menu-btn">Back</a>
+    <div class="menu-box">
+        <a href="books.html" class="menu-btn">Manage Books</a>
+        <a href="students.html" class="menu-btn">Manage Students</a>
+        <a href="borrow.html" class="menu-btn">Borrow Books</a>
+        <a href="return.html" class="menu-btn">Return Books</a>
     </div>
 
 </div>
