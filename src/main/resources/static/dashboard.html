@@ -1,19 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="/css/dashboard.css">
+    <meta charset="UTF-8">
+    <title>Student List</title>
+    <link rel="stylesheet" href="/css/students.css">
 </head>
+
 <body>
 
-<h2>Lending System Dashboard</h2>
+<div class="dash-wrapper">
 
-<ul>
-    <li><a href="books.html">Manage Books</a></li>
-    <li><a href="students.html">Manage Students</a></li>
-    <li><a href="borrow.html">Borrow Books</a></li>
-    <li><a href="return.html">Return Books</a></li>
-</ul>
+    <!-- HEADER -->
+    <div class="dash-header">
+        <div class="brand-badge">LENDING SYSTEM</div>
+        <div class="gear">⚙</div>
+    </div>
+
+    <!-- CONTENT -->
+    <h2 style="margin-bottom:20px;">Student List</h2>
+
+    <div class="menu-box" style="flex-direction:column; gap:0;">
+        <table style="width:100%; border-collapse:collapse;">
+            <thead>
+            <tr style="border-bottom:1px solid rgba(255,255,255,.2);">
+                <th align="left" style="padding:12px;">ID</th>
+                <th align="left" style="padding:12px;">Name</th>
+                <th align="left" style="padding:12px;">Student ID</th>
+                <th align="left" style="padding:12px;">Course / Year</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="padding:12px;">1</td>
+                <td style="padding:12px;">Alpio Abuyog</td>
+                <td style="padding:12px;">234311</td>
+                <td style="padding:12px;">BSIT 3rd Year</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- FOOTER BUTTON -->
+    <div style="text-align:center; margin-top:25px;">
+        <a href="/dashboard.html" class="menu-btn">Back</a>
+    </div>
+
+</div>
 
 </body>
 </html>
